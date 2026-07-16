@@ -24,7 +24,7 @@ The Python script performs the following tasks automatically:
 
 ## Project Structure
 
-```
+```text
 aws-static-website-sdk/
 │
 ├── website/
@@ -82,7 +82,7 @@ python upload.py
 
 ## Sample Output
 
-```
+```text
 Bucket created successfully.
 Uploading website files...
 
@@ -94,8 +94,28 @@ Static Website Hosting Enabled.
 Bucket Policy Applied.
 
 Website URL:
-http://your-bucket-name.s3-website-ap-south-1.amazonaws.com
+http://your-bucket-name.s3-website.ap-south-1.amazonaws.com
 ```
+
+---
+
+## Screenshots
+
+### 1. Project Structure
+
+![Project Structure](screenshots/project-structure.png)
+
+### 2. Terminal Output
+
+![Terminal Output](screenshots/terminal-output.png)
+
+### 3. Website Output
+
+![Website Output](screenshots/website-output.png)
+
+### 4. Amazon S3 Bucket Objects
+
+![Amazon S3 Bucket](screenshots/s3-bucket.png)
 
 ---
 
